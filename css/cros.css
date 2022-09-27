@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body{
+    background: linear-gradient(120deg, #ff2525da,#141414);
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+button{
+    height: 2.5em;
+    width: 5em;
+    border: none;
+    color: white;
+    transition: transform.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.start{
+    background-color: green;
+}
+
+.pause{
+    background-color: gray;
+}
+
+.stop{
+    background-color: red;
+}
+
+.seta{
+    position:absolute;
+	right: 92%;
+	top:10%;
+	margin-left:-110px;
+	margin-top:-40px;
+    cursor: pointer;
+    transition: transform.3s;
+}
+
+.seta img:hover{
+    transform: scale(1.3);
+}
+    
